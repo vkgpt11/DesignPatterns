@@ -14,16 +14,16 @@ https://stackoverflow.com/questions/757743/what-is-the-difference-between-builde
 https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern?noredirect=1&lq=1
 
 
-## what all five cloud design patterns?
-1. Cache-Aside: Load data on demand into a cache from a data store. This can improve performance and also helps to maintain consistency between data held in the cache and data in the underlying data store.
+## What all five cloud design patterns?
+1. **Cache-Aside:** Load data on demand into a cache from a data store. This can improve performance and also helps to maintain consistency between data held in the cache and data in the underlying data store.
 https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside
-2. Command and Query Responsibility Segregation (CQRS) pattern: Segregate operations that read data from operations that update data by using separate interfaces. This can maximize performance,   scalability, and security. Supports the evolution of the system over time through higher flexibility, and prevents update commands from causing merge conflicts at the domain level.
+2. **Command and Query Responsibility Segregation (CQRS) pattern:** Segregate operations that read data from operations that update data by using separate interfaces. This can maximize performance,   scalability, and security. Supports the evolution of the system over time through higher flexibility, and prevents update commands from causing merge conflicts at the domain level.
 https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs
-3. Publisher-Subscriber pattern:Enable an application to announce events to multiple interested consumers aynchronously, without coupling the senders to the receivers.
+3. **Publisher-Subscriber pattern:** Enable an application to announce events to multiple interested consumers aynchronously, without coupling the senders to the receivers.
 https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber
-4. Circuit Breaker pattern: Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. This can improve the stability and resiliency of an application.
+4. **Circuit Breaker pattern:** Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. This can improve the stability and resiliency of an application.
 https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
-5. Health Endpoint Monitoring pattern: Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. This can help to verify that applications and services are performing correctly.
+5. **Health Endpoint Monitoring pattern:** Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. This can help to verify that applications and services are performing correctly.
 https://docs.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring
 
 
